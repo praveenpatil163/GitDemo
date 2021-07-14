@@ -27,6 +27,11 @@ public class HomePage extends  Base{
 	
 	@Test
 	public void basePageNavigation() throws IOException {
+		System.out.println("Hi ");
+		System.out.println("Hello! what are you doing?");
+		System.out.println("where are you?");
+		System.out.println("What are you doing? ");
+		System.out.println("What is your name?");
 		driver=initalizeDriver();
 		String url="http://www.qaclickacademy.com/index.php";
 		
