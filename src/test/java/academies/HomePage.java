@@ -34,6 +34,8 @@ public class HomePage extends  Base{
 		System.out.println("Helloooooo");
 		System.out.println("How are youuuu");
 		System.out.println("Nice to meet you");
+		System.out.println("Whats your name");
+		System.out.println("This is boss");
 		driver.get(url);
 		driver.manage().window().maximize();
 		LandingPage lp=new LandingPage(driver);
