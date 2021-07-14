@@ -30,6 +30,10 @@ public class HomePage extends  Base{
 		driver=initalizeDriver();
 		String url="http://www.qaclickacademy.com/index.php";
 		
+		System.out.println("Hiiiiii");
+		System.out.println("Helloooooo");
+		System.out.println("How are youuuu");
+		System.out.println("Nice to meet you");
 		driver.get(url);
 		driver.manage().window().maximize();
 		LandingPage lp=new LandingPage(driver);
